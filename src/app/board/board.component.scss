@@ -1,0 +1,32 @@
+main {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-gap: 0px;
+}
+
+app-square {
+    border: 1px rgb(53, 53, 53) solid;
+    height: 200px;
+}
+
+#square-container {
+    margin: auto;
+    padding-top: 2rem;
+    max-width: 1240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header-section {
+    margin: auto;
+    max-width: 1240px;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header-items {
+    justify-content: start;
+}

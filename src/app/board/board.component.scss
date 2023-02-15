@@ -1,18 +1,20 @@
 main {
+    width: inherit;
     display: grid;
-    grid-template-columns: 10rem 10rem 10rem;
+    grid-template-columns: 100px 100px 100px;
     grid-gap: 2px;
 }
 
 app-square {
     border: 1px rgb(53, 53, 53) solid;
-    height: 20vh;
+    height: 100px;
 }
 
 #square-container {
     margin: auto;
     padding-top: 2rem;
     max-width: 1240px;
+
     display: flex;
     justify-content: center;
     align-items: center;

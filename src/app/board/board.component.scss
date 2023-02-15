@@ -1,12 +1,12 @@
 main {
     display: grid;
-    grid-template-columns: 200px 200px 200px;
-    grid-gap: 0px;
+    grid-template-columns: 10rem 10rem 10rem;
+    grid-gap: 2px;
 }
 
 app-square {
     border: 1px rgb(53, 53, 53) solid;
-    height: 200px;
+    height: 20vh;
 }
 
 #square-container {
